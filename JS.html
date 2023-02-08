@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var main = document.getElementById("div");
+
+
+if(main.hasChildNodes()) {
+    var nodes = main.childNodes;
+}
+ 
+    for(var i = 0; i < nodes.length; i++) {
+        alert(nodes[i].nodeName);
+    }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="heading" id="one">Hello</h1>
+    <h1 class="heading" id="two">World</h1>
+    <h1 class="heading" id="three">!!!</h1>
+    <script>
+        // alert(document.documentElement.getAttribute("lang"))
+        // alert(document.head.lastElementChild.nodeName)
+        // alert(document.head.lastElementChild.nodeType)
+        // alert(document.body)
+        var a=document.getElementById("one")
+        var b=document.getElementsByClassName("heading")
+        // a.style.color="red"
+        // a.style.background="blue"
+        // b[0].style.background="red"
+        // b[1].style.background="blue"
+        // b[b.length-1].style.background="yellow"
+
+        for (var i in b){
+            b[i].style.background="green";
+        }
+        
+    </script>
+</body>
+</html>
